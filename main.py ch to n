@@ -1,0 +1,14 @@
+n = int(input("enter any character : "))
+ch = n
+print("character is : ", ch)
+
+(ch >= 97 and ch <= 122):
+    ch = chr(ch)
+    ch = ch.upper()if
+    print("character is : ",ch)
+
+elif(ch >= 65 and ch <= 90):
+    ch = chr(ch)
+    ch = ch.lower()
+else:
+    print("character is : ", ch)
